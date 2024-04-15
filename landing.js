@@ -48,5 +48,5 @@ function navigateToPage(pageUrl) {
 
 // Add click event listener to the confirm payment button
 confirmPayment.addEventListener("click", function() {
-    navigateToPage("http://127.0.0.1:3000/FILES/qrCode.page/qrCode.html");
+    navigateToPage("http://127.0.0.1:3000/qrCode.page/qrCode.html");
 });
