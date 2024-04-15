@@ -56,118 +56,370 @@
         <img id="logo" src="IMAGES/weekendy-logo.png" alt="WEEKENDY LOGO" >
 
     </div>
-
-    <!-- title -->
-  <h1>TWENDE FOM!</h1>
     
   <!-- cards -->
-    <div class="cards">
-  
-      <!-- first card -->
-<div class="card-group">
-          <div class="card1">
-                      <img id="one" src="IMAGES/boomfest.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                  <h5 class="card-title">BOOMFEST</h5>
-                  <p class="card-text">This is a Wakadinali Concert.</p>
-                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                        
+  <div id="allCards">
 
-      <!-- first card's button -->
-                  <a href="https://www.youtube.com/watch?v=v24tTTVko70"> 
-                    <div class="button" data-tooltip="PRICE $20">
-                          <div class="button-wrapper">
-                          <div class="text">BUY TICKET</div>
-                          <span class="icon">
-                          <svg
+  
+                      <div class="cards">
+                    
+                        <!-- first card -->
+                  <div class="card-group-1">
+                            <div class="card1">
+                                        <img id="one" src="IMAGES/boomfest.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                    <h5 class="card-title">BOOMFEST</h5>
+                                    <p class="card-text">This is a Wakadinali Concert.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                          
+
+                        <!-- first card's button -->
+                                    
+                                      <button id="first" type="submit" onclick="openPopup()" ><div class="button" data-tooltip="PRICE $20">
+                                            <div class="button-wrapper">
+                                            <div class="text">BUY TICKET</div>
+                                            <span class="icon">
+                                            <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-cart2"
+                                            viewBox="0 0 16 16"
+                                            >
+                                            <path
+                                              d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                                            ></path>
+                                            </svg>
+                                            </span>
+                                        </div>
+                                    </div></button>
+                                    <!-- <div class="popup" id="popup">
+                                      <img  id="emoji" src="IMAGES/Smiley.jpg" >
+                                      <h1>Thank You for buying tickets with us</h1>
+                                      <h2>skia best</h2>
+                                      <p>Here is your QR ticket.Take a screenshot</p>
+                                      <button type="button">OK</button>
+
+                                    </div>
+                                     -->
+<div class="popup" id="popup">
+  <div class="popup-content">
+    <span class="close" id="close">&times;</span>
+    <h2>Make Payment</h2>
+    <input type="text" id="name" placeholder="Name"><br>
+    <input type="tel" id="phone" placeholder="Phone Number">
+    <button id="confirm" onclick="closePopup()" >Confirm Payment</button>,.
+  </div>
+</div> 
+
+
+
+
+
+
+
+                      </div>
+                          </div>
+
+                  <!-- second card -->
+                              <div class="card2">
+                                <img class="two" src="IMAGES/rong-ekspiriens.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">THE RONG EXPERIENCE</h5>
+                                  <p class="card-text">This is Wakadinali Concert.</p>
+                                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+
+                  <!-- second card's button -->
+                    <button type="submit"> <div class="button" data-tooltip="PRICE $20">
+                    <div class="button-wrapper">
+                      <div class="text">BUY TICKET</div>
+                      <span class="icon">
+                        <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
                           height="16"
                           fill="currentColor"
                           class="bi bi-cart2"
                           viewBox="0 0 16 16"
-                          >
+                        >
                           <path
                             d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
                           ></path>
-                          </svg>
-                          </span>
-                      </div>
+                        </svg>
+                      </span>
+                    </div>
+                  </div></button>
+
+                                </div>
+                              </div>
+                              
+                              
+                              
+                  <!-- third card -->
+                      <div class="card3">
+                                <img class="three" src="IMAGES/WhatsApp Image 2024-04-15 at 10.26.00_f5a40e0a.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">B BOY SETTINGZ</h5>
+                                  <p class="card-text">BURUKLYN BOYZ CONCERT</p>
+                                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                  
+                                </div>
+                  <!-- third card's button -->
+                              
+                  <button type="submit"><div class="button" data-tooltip="PRICE $20">
+                                <div class="button-wrapper">
+                                  <div class="text">BUY TICKET</div>
+                                  <span class="icon">
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="16"
+                                      height="16"
+                                      fill="currentColor"
+                                      class="bi bi-cart2"
+                                      viewBox="0 0 16 16"
+                                    >
+                                      <path
+                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                                      ></path>
+                                </svg>
+                              </span>
+                            </div>
+                          </div></button>
+                          
+                                      </div>
+
+
                   </div>
-                  </a>
-     </div>
-        </div>
-
-<!-- second card -->
-            <div class="card2">
-              <img class="two" src="IMAGES/rong-ekspiriens.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">THE RONG EXPERIENCE</h5>
-                <p class="card-text">This is Wakadinali Concert.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-
-<!-- second card's button -->
- <a href="https://www.youtube.com/">  <div class="button" data-tooltip="PRICE $20">
-  <div class="button-wrapper">
-    <div class="text">BUY TICKET</div>
-    <span class="icon">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="currentColor"
-        class="bi bi-cart2"
-        viewBox="0 0 16 16"
-      >
-        <path
-          d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
-        ></path>
-      </svg>
-    </span>
-  </div>
-</div>
-</a>
-              </div>
-            </div>
-            
-            
-            
-<!-- third card -->
-    <div class="card3">
-              <img class="three" src="IMAGES/xfest-miya.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">X-FEST</h5>
-                <p class="card-text">Hosted by MIYA</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                
-              </div>
-<!-- third card's button -->
-             <a href="munchez.mywindo.site"> <div class="button" data-tooltip="PRICE $20">
-              <div class="button-wrapper">
-                <div class="text">BUY TICKET</div>
-                <span class="icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-cart2"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
-                    ></path>
-              </svg>
-            </span>
-          </div>
-        </div>
-        </a>
                     </div>
 
 
+
+                  <!-- middle section -->
+
+
+
+                      <!-- cards -->
+                      <div class="cardsSecTwo">
+                    
+                        <!-- first card -->
+                  <div class="card-group-1">
+                            <div class="card1">
+                                        <img id="one" src="IMAGES/bien tour.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                    <h5 class="card-title">BIEN AUSTRALIA TOUR</h5>
+                                    <p class="card-text">Perth - April 27th.<br>Adelaide - April 28th.<br>Melbourne - May 3rd.<br>Sydney - May 4th.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                          
+
+                        <!-- first card's button -->
+                                    <button type="submit">
+                                      <div class="button" data-tooltip="PRICE $100">
+                                            <div class="button-wrapper">
+                                            <div class="text">BUY TICKET</div>
+                                            <span class="icon">
+                                            <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-cart2"
+                                            viewBox="0 0 16 16"
+                                            >
+                                            <path
+                                              d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                                            ></path>
+                                            </svg>
+                                            </span>
+                                        </div>
+                                    </div></button>
+                                  
+                      </div>
+                          </div>
+
+                  <!-- second card -->
+                              <div class="card2">
+                                <img class="two" src="IMAGES/wagzz-xfest.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">X-FEST</h5>
+                                  <p class="card-text">Hosted by Wagzz.<br>Location - SK8CITY</p>
+                                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+
+                  <!-- second card's button -->
+                  <button type="submit"> <div class="button" data-tooltip="PRICE $25">
+                    <div class="button-wrapper">
+                      <div class="text">BUY TICKET</div>
+                      <span class="icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-cart2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+                  </div></button>
+
+                                </div>
+                              </div>
+                              
+                              
+                              
+                  <!-- third card -->
+                      <div class="card3">
+                                <img class="three" src="IMAGES/tommorowland.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">TOMMOROWLAND</h5>
+                                  <p class="card-text">Featuring STEVE AOKI <br> Location to be set.</p>
+                                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                  
+                                </div>
+                  <!-- third card's button -->
+                              <button type="submit"><div class="button" data-tooltip="PRICE $500">
+                                <div class="button-wrapper">
+                                  <div class="text">BUY TICKET</div>
+                                  <span class="icon">
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="16"
+                                      height="16"
+                                      fill="currentColor"
+                                      class="bi bi-cart2"
+                                      viewBox="0 0 16 16"
+                                    >
+                                      <path
+                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                                      ></path>
+                                </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </button>
+                                      </div>
+
+
+                  </div>
+                    </div>
+
+                    <!-- 3rd section -->
+
+                    
+                      <!-- cards -->
+                      <div class="cardsSecThree">
+                    
+                        <!-- first card -->
+                  <div class="card-group-1">
+                            <div class="card1">
+                                        <img id="one" src="IMAGES/wireless fest.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                    <h5 class="card-title">WIRELESS FEST</h5>
+                                    <p class="card-text">Future & Nicki Minaj.<br> Birmingham,Leeds Fields</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                          
+
+                        <!-- first card's button -->
+                                  <button type="submit"> 
+                                      <div class="button" data-tooltip="PRICE $200">
+                                            <div class="button-wrapper">
+                                            <div class="text">BUY TICKET</div>
+                                            <span class="icon">
+                                            <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-cart2"
+                                            viewBox="0 0 16 16"
+                                            >
+                                            <path
+                                              d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                                            ></path>
+                                            </svg>
+                                            </span>
+                                        </div>
+                                    </div></button>
+                                  
+                      </div>
+                          </div>
+
+                  <!-- second card -->
+                              <div class="card2">
+                                <img class="two" src="IMAGES/centralcee wireless.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">WIRELESS FESTIVAL</h5>
+                                  <p class="card-text">This is CENTRAL CEE.<br>Birmingham,Sully Fields</p>
+                                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+
+                  <!-- second card's button -->
+                  <button type="submit"><div class="button" data-tooltip="PRICE $20">
+                    <div class="button-wrapper">
+                      <div class="text">BUY TICKET</div>
+                      <span class="icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-cart2"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                          ></path>
+                        </svg>
+                      </span>
+                    </div>
+                  </div></button>
+
+                                </div>
+                              </div>
+                              
+                              
+                              
+                  <!-- third card -->
+                      <div class="card3">
+                                <img class="three" src="IMAGES/burna-boy.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">BURNA BOY</h5>
+                                  <p class="card-text">DC WASHINGTON CONCERT <br> 35th avenue All Saints</p>
+                                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                  
+                                </div>
+                  <!-- third card's button -->
+                              <button type="submit"><div class="button" data-tooltip="PRICE $20">
+                                <div class="button-wrapper">
+                                  <div class="text">BUY TICKET</div>
+                                  <span class="icon">
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="16"
+                                      height="16"
+                                      fill="currentColor"
+                                      class="bi bi-cart2"
+                                      viewBox="0 0 16 16"
+                                    >
+                                      <path
+                                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                                      ></path>
+                                </svg>
+                              </span>
+                            </div>
+                          </div></button>
+                          
+                                      </div>
+
+
+                  </div>
+                    </div>
+
 </div>
-  </div>
-</div>
-    </div>
+  <script src="landing.js"></script>
+
 </body>
 </html>
