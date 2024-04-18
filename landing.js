@@ -2,7 +2,7 @@
 
 // DEFINE BASE URL FOR API REQUESTS
 
-const baseUrl = "https://db-weekendy.onrender.com/events"
+const baseUrl = "https://db-weekendy.onrender.com/events/"
 
 
 // Get references to the button and the popup
